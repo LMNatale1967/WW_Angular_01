@@ -8,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 
 export class MySecondCompComponent implements OnInit {
 
+  // ******************************************
+  //  INIT a Var with The value 'mySecondComp'
+  // ******************************************
+  mySecondComp: string = "mySecondComp  -> from a Var";
+
   constructor() {     
   }
 
   ngOnInit(): void {
   }
+
+  // **********************************************************
+  // Event to Start when you click on the VAR {{mySecondComp}}
+  // **********************************************************  
+  mySecondCompEvent(pEvent: any): void {
+    alert("Display the mySecondCompEvent() Details "+ pEvent)
+    console.log(pEvent);
+  }
+
 }
