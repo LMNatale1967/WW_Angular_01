@@ -25,5 +25,6 @@ export class MyThirdCompComponent implements OnInit {
   myThirdCompEvent(pEvent: any): void {
     alert("Display the myThirdCompEvent() Details "+ pEvent)
     console.log(pEvent);
+    this.myThirdComp = "The (click) Event was managed !! - myThirdComp  -> from a Var"
   }
 }

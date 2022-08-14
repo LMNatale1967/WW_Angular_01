@@ -25,6 +25,7 @@ export class MySecondCompComponent implements OnInit {
   mySecondCompEvent(pEvent: any): void {
     alert("Display the mySecondCompEvent() Details "+ pEvent)
     console.log(pEvent);
+    this.mySecondComp = "The (click) Event was managed !! - mySecondComp  -> from a Var"
   }
 
 }

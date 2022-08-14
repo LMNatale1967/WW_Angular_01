@@ -27,6 +27,7 @@ export class MyFirstCompComponent implements OnInit {
   myFirstCompEvent(pEvent: any): void {
     alert("Display the myFirstCompEvent() Details "+ pEvent)
     console.log(pEvent);
+    this.myFirstComp = "The (click) Event was managed !! - myFirstComp  -> from a Var"
   }
 
 }
