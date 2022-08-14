@@ -11,10 +11,28 @@ import { AppComponent } from './app.component';
 // *********************************************
 import { MyCmpComponent } from './my-cmp/my-cmp.component';
 
+// ***************************************************
+//  import MyFirstCompComponent From the Defined Path
+// ***************************************************
+import { MyFirstCompComponent } from './my-first-comp/my-first-comp.component';
+
+// ****************************************************
+//  import MySecondCompComponent From the Defined Path
+// ****************************************************
+import { MySecondCompComponent } from './my-second-comp/my-second-comp.component';
+
+// ****************************************************
+//  import MyThirdCompComponent From the Defined Path
+// ****************************************************
+import { MyThirdCompComponent } from './my-third-comp/my-third-comp.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    MyCmpComponent
+    MyCmpComponent,         // Added Component
+    MyFirstCompComponent,   // Added Component
+    MySecondCompComponent,  // Added Component
+    MyThirdCompComponent    // Added Component
   ],
   imports: [
     BrowserModule
