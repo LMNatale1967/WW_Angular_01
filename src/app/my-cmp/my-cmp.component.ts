@@ -5,9 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './my-cmp.component.html',
   styleUrls: ['./my-cmp.component.scss']
 })
+
 export class MyCmpComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
