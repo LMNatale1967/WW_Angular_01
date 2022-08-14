@@ -5,10 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 //  import AppComponent From the Defined Path
 // *******************************************
 import { AppComponent } from './app.component';
+import { MyCmpComponent } from './my-cmp/my-cmp.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyCmpComponent
   ],
   imports: [
     BrowserModule
